@@ -1,0 +1,5 @@
+{
+  "stop_after_purchase": true,
+  "purchase_cost": 300000,
+  "starting_balance": 7500000
+}

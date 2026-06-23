@@ -1,0 +1,230 @@
+{
+  "seed": 42,
+  "episodes_per_route": 200,
+  "thresholds": {
+    "0": 0.922,
+    "1": 0.947,
+    "2": 0.958,
+    "3": 0.949,
+    "4": 0.982,
+    "5": 0.976,
+    "6": 0.985,
+    "7": 0.888
+  },
+  "confidence_ranges": {
+    "0": {
+      "true_min": 0.5428701043128967,
+      "true_q05": 0.9398765116930008,
+      "true_q10": 0.9420760869979858,
+      "true_q20": 0.9449382901191712,
+      "false_max": null,
+      "search_min": 0.922,
+      "preferred_threshold": 0.945,
+      "search_max": 0.995
+    },
+    "1": {
+      "true_min": 0.7671515345573425,
+      "true_q05": 0.9556978821754456,
+      "true_q10": 0.9573560357093811,
+      "true_q20": 0.9596133947372436,
+      "false_max": null,
+      "search_min": 0.937,
+      "preferred_threshold": 0.96,
+      "search_max": 0.995
+    },
+    "2": {
+      "true_min": 0.9668908715248108,
+      "true_q05": 0.9670810699462891,
+      "true_q10": 0.9678731501102448,
+      "true_q20": 0.9681289792060852,
+      "false_max": null,
+      "search_min": 0.948,
+      "preferred_threshold": 0.968,
+      "search_max": 0.995
+    },
+    "3": {
+      "true_min": 0.89444899559021,
+      "true_q05": 0.9682163596153259,
+      "true_q10": 0.9691986441612244,
+      "true_q20": 0.9725307822227478,
+      "false_max": null,
+      "search_min": 0.949,
+      "preferred_threshold": 0.973,
+      "search_max": 0.995
+    },
+    "4": {
+      "true_min": 0.9567266702651978,
+      "true_q05": 0.991276204586029,
+      "true_q10": 0.9915440082550049,
+      "true_q20": 0.9969692826271057,
+      "false_max": null,
+      "search_min": 0.972,
+      "preferred_threshold": 0.995,
+      "search_max": 0.995
+    },
+    "5": {
+      "true_min": 0.9490132331848145,
+      "true_q05": 0.9823409914970398,
+      "true_q10": 0.9823436737060547,
+      "true_q20": 0.9823448657989502,
+      "false_max": 0.955994725227356,
+      "search_min": 0.966,
+      "preferred_threshold": 0.982,
+      "search_max": 0.995
+    },
+    "6": {
+      "true_min": 0.9805246591567993,
+      "true_q05": 0.9945701956748962,
+      "true_q10": 0.9945709109306335,
+      "true_q20": 0.9945904016494751,
+      "false_max": null,
+      "search_min": 0.975,
+      "preferred_threshold": 0.995,
+      "search_max": 0.995
+    },
+    "7": {
+      "true_min": 0.8933740258216858,
+      "true_q05": 0.9070780754089356,
+      "true_q10": 0.9084122180938721,
+      "true_q20": 0.9097211241722107,
+      "false_max": null,
+      "search_min": 0.888,
+      "preferred_threshold": 0.91,
+      "search_max": 0.995
+    }
+  },
+  "score": 603714.0,
+  "totals": {
+    "route_successes": 584,
+    "route_episodes": 600,
+    "wrong_accepts": 0,
+    "stage_misses": 16,
+    "isolated_tp": 10003,
+    "isolated_fp": 0,
+    "isolated_low_conf": 26
+  },
+  "route_results": {
+    "no_auctions_return": {
+      "episodes": 200,
+      "successes": 196,
+      "success_rate": 0.98,
+      "wrong_accepts": 0,
+      "stage_misses": 4,
+      "fail_examples": [
+        {
+          "true_state": 0,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\0_auction_house\\0_auction_house_1779745931_69.png"
+        },
+        {
+          "true_state": 0,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\0_auction_house\\0_auction_house_1779746051_31.png"
+        },
+        {
+          "true_state": 0,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\0_auction_house\\0_auction_house_1779745931_69.png"
+        }
+      ]
+    },
+    "failed_buy_return": {
+      "episodes": 200,
+      "successes": 195,
+      "success_rate": 0.975,
+      "wrong_accepts": 0,
+      "stage_misses": 5,
+      "fail_examples": [
+        {
+          "true_state": 0,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\0_auction_house\\0_auction_house_1779746050_30.png"
+        },
+        {
+          "true_state": 4,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\4_confirm_buy\\4_confirm_buy_1779755513_333.png"
+        },
+        {
+          "true_state": 4,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\4_confirm_buy\\4_confirm_buy_1779755513_338.png"
+        }
+      ]
+    },
+    "success_buy": {
+      "episodes": 200,
+      "successes": 193,
+      "success_rate": 0.965,
+      "wrong_accepts": 0,
+      "stage_misses": 7,
+      "fail_examples": [
+        {
+          "true_state": 5,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\5_buy_success\\5_buy_success_1779755524_337.png"
+        },
+        {
+          "true_state": 4,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\4_confirm_buy\\4_confirm_buy_1779755513_338.png"
+        },
+        {
+          "true_state": 4,
+          "reason": "no_action",
+          "path": "C:\\Users\\w1rmeee\\Desktop\\neironka\\data\\4_confirm_buy\\4_confirm_buy_1779755513_333.png"
+        }
+      ]
+    }
+  },
+  "isolated_metrics": {
+    "0": {
+      "tp": 1336,
+      "fp": 0,
+      "low_conf": 6,
+      "total": 1342
+    },
+    "1": {
+      "tp": 1524,
+      "fp": 0,
+      "low_conf": 1,
+      "total": 1525
+    },
+    "2": {
+      "tp": 1094,
+      "fp": 0,
+      "low_conf": 0,
+      "total": 1094
+    },
+    "3": {
+      "tp": 1504,
+      "fp": 0,
+      "low_conf": 1,
+      "total": 1505
+    },
+    "4": {
+      "tp": 1109,
+      "fp": 0,
+      "low_conf": 10,
+      "total": 1119
+    },
+    "5": {
+      "tp": 819,
+      "fp": 0,
+      "low_conf": 7,
+      "total": 826
+    },
+    "6": {
+      "tp": 875,
+      "fp": 0,
+      "low_conf": 1,
+      "total": 876
+    },
+    "7": {
+      "tp": 1742,
+      "fp": 0,
+      "low_conf": 0,
+      "total": 1742
+    }
+  }
+}
