@@ -1,4 +1,4 @@
 # Set enabled=1 after filling bot_token and chat_id.
 enabled=1
-bot_token=8920159444:AAETjT5gOGPvMb2GUOGqvP7qSgSXs81cXDA
-chat_id=-5154423138
+bot_token="ВАШ ТОКЕН"
+chat_id="ВАШ ЧАТ АЙДИ"
